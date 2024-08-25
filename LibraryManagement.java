@@ -33,7 +33,7 @@ public class Library {
 		System.out.println(bname);
 		
 		
-		System.out.println("Choose the Book that you want to Remove: (Use Numbers) \n 1." + newBook + " \n 2. The Adventures of Tom Sawyer \n 3.Indiana Jones \n 4.Warhammer 400\n 5.The Tales of Albert \n 6. None");
+		System.out.println("Choose the Book that you want to Remove: (Use Numbers) \n 0." + newBook + " \n 1. The Adventures of Tom Sawyer \n 3.Indiana Jones \n 4.Warhammer 400\n 5.The Tales of Albert \n 6. None");
 		String bremove = scan.next();
 	
 		if (bremove.equals("1")) {
@@ -69,27 +69,27 @@ public class Library {
 		
 		if (choice.equals("1")) {
 			choice = bname.get(0);
-			System.out.println("Here is the book in that index" + choice);
+			System.out.println("Here is the book in that index " + choice);
 		    } 
 		
 		else if (choice.equals("2")) {
 			choice = bname.get(1);
-			System.out.println("Here is the book in that index" + choice);
+			System.out.println("Here is the book in that index " + choice);
 		    } 
 		
 		else if (choice.equals("3")) {
 			choice = bname.get(2);
-			System.out.println("Here is the book in that index" + choice);
+			System.out.println("Here is the book in that index " + choice);
 		    } 
 		
 		else if (choice.equals("4")) {
 			choice = bname.get(3);
-			System.out.println("Here is the book in that index" + choice);
+			System.out.println("Here is the book in that index " + choice);
 		    } 
 		
 		else if (choice.equals("5")) {
 			choice = bname.get(4);
-			System.out.println("Here is the book in that index" + choice);
+			System.out.println("Here is the book in that index " + choice);
 		    } 
 		
 		 
