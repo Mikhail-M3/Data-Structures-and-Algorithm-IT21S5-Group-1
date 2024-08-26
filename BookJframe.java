@@ -8,18 +8,14 @@ import javax.swing.border.EmptyBorder;
 import java.awt.Color;
 import javax.swing.JLabel;
 import java.awt.Image;
-import java.net.URL;
 
 import javax.swing.ImageIcon;
-import javax.swing.JTextPane;
-import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import java.awt.Font;
-import javax.swing.DropMode;
-import javax.swing.JEditorPane;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Toolkit;
 
 public class BookJframe extends JFrame {
 
