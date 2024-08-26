@@ -71,7 +71,6 @@ public class BookJframe extends JFrame {
 		JButton AddBook = new JButton("");
 		AddBook.setBackground(new Color(255, 255, 255));
 		AddBook.setToolTipText("");
-		AddBook.setIcon(new ImageIcon("C:\\Users\\Visitor\\Downloads\\logo2.png"));
 		AddBook.setBounds(95, 146, 109, 116);
 		contentPane.add(AddBook);
 		
