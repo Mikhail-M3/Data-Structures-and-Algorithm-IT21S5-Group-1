@@ -18,6 +18,8 @@ import java.awt.Font;
 import javax.swing.DropMode;
 import javax.swing.JEditorPane;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class BookJframe extends JFrame {
 
@@ -52,26 +54,40 @@ public class BookJframe extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton_3 = new JButton("");
-		btnNewButton_3.setBounds(594, 401, 109, 116);
-		contentPane.add(btnNewButton_3);
+		JButton ListOfBooks = new JButton("List of Books");
+		ListOfBooks.setForeground(Color.WHITE);
+		ListOfBooks.setFont(new Font("Yu Gothic Medium", Font.BOLD, 12));
+		ListOfBooks.setBackground(new Color(128, 64, 6));
+		Image img5 = new ImageIcon(this.getClass().getResource("/listofBooks.png")) .getImage();
+		ListOfBooks.setIcon(new ImageIcon(img5));
+		ListOfBooks.setBounds(551, 374, 250, 143);
+		contentPane.add(ListOfBooks);
 		
-		JButton btnNewButton_2 = new JButton("");
-		btnNewButton_2.setBounds(247, 401, 109, 116);
-		contentPane.add(btnNewButton_2);
-		
-		JButton RemoveBook = new JButton("");
-		RemoveBook.setBounds(758, 146, 109, 116);
+		JButton RemoveBook = new JButton("Remove Book");
+		RemoveBook.setForeground(Color.WHITE);
+		RemoveBook.setFont(new Font("Yu Gothic Medium", Font.BOLD, 12));
+		RemoveBook.setBackground(new Color(128, 64, 6));
+		Image img3 = new ImageIcon(this.getClass().getResource("/removeBook.png")) .getImage();
+		RemoveBook.setIcon(new ImageIcon(img3));
+		RemoveBook.setBounds(670, 146, 250, 143);
 		contentPane.add(RemoveBook);
 		
-		JButton InsertBook = new JButton("");
-		InsertBook.setBounds(420, 146, 109, 116);
-		contentPane.add(InsertBook);
+		JButton SearchBook = new JButton("   Search Book");
+		SearchBook.setForeground(Color.WHITE);
+		SearchBook.setFont(new Font("Yu Gothic Medium", Font.BOLD, 12));
+		SearchBook.setBackground(new Color(128, 64, 6));
+		Image img4 = new ImageIcon(this.getClass().getResource("/searchBook.png")) .getImage();
+		SearchBook.setIcon(new ImageIcon(img4));
+		SearchBook.setBounds(157, 374, 250, 143);
+		contentPane.add(SearchBook);
 		
-		JButton AddBook = new JButton("");
-		AddBook.setBackground(new Color(255, 255, 255));
-		AddBook.setToolTipText("");
-		AddBook.setBounds(95, 146, 109, 116);
+		JButton AddBook = new JButton("Add New Book");
+		AddBook.setFont(new Font("Yu Gothic Medium", Font.BOLD, 12));
+		AddBook.setForeground(new Color(255, 255, 255));
+		AddBook.setBackground(new Color(128, 64, 6));
+		Image img2 = new ImageIcon(this.getClass().getResource("/addBook.png")) .getImage();
+		AddBook.setIcon(new ImageIcon(img2));
+		AddBook.setBounds(47, 146, 250, 143);
 		contentPane.add(AddBook);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
